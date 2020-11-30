@@ -96,4 +96,11 @@ small{
     .input{
         margin-bottom: 0;
     }
+
+}
+
+@media (max-width: 780px){
+ .title{
+     font-size: 3rem;
+ }   
 }
