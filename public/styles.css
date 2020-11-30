@@ -1,0 +1,99 @@
+html{
+    font-size: 10px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(244, 244, 244);
+    color: #333;
+}
+p{
+    font-size: 1.6rem;
+}
+small{
+    font-size: 1.2rem;
+}
+.head{
+    background-image: url("./movies.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #ba000d;
+}
+.movie-container{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 40px;
+}
+.title{
+    font-size: 6rem;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    
+}
+.movie-search{
+    display: grid;
+
+}
+.label{
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+    color: #ba000d;
+}
+.input{
+    font-size: 1.6rem;
+    padding: 10px 20px;
+    line-height: 2.8rem;
+    border-radius: 20px;
+    border: 1px solid coral;
+    margin-bottom: 1rem;
+}
+.btn{
+    border-radius: 20px;
+    background-color: #ba000d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 250ms;
+}
+.btn:hover{
+    background-color: coral;
+}
+.movie-list{
+    margin-top: 40px;
+}
+.movie-title{
+    margin-bottom: 5px;
+    font-size: 3.2rem;
+}
+.movie-card{
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0,0, 0.75);
+    margin-bottom: 2rem;
+}
+.movie-image{
+    margin: 0 auto;
+    display: block;
+    
+}
+/* Responsive designs */
+@media (min-width: 780px){
+    .movie-search{
+        grid-template-columns: auto 1fr auto;
+        grid-gap: 1rem;
+        align-items: center;
+    }
+    .input{
+        margin-bottom: 0;
+    }
+}
