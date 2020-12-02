@@ -99,8 +99,13 @@ small{
 
 }
 
-@media (max-width: 500px){
+@media (min-width: 501px) and (max-width: 779px){
  .title{
-     font-size: 2rem;
+     font-size: 4.8rem;
  }   
 }
+ @media  (min-width: 200px) and (max-width: 500px){
+    .title{
+        font-size: 3rem;
+    }   
+ }
